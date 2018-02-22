@@ -37,6 +37,7 @@ docker-compose stop # Stop services
 docker-compose logs # Check logs
 docker-compose logs -f # Check Logs and keep watching
 
+docker-compose pull # Pull service images
 docker-compose down # Stop and remove containers, networks, images, and volumes
 docker-compose up -d --build # rebuild image, it is useful if you are using local context
 
