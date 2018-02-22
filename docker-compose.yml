@@ -1,0 +1,14 @@
+version: '3'
+# https://docs.docker.com/compose/compose-file/#service-configuration-reference
+
+services:
+  jupyter-server:
+    build: ./
+    ports:
+      - 8888:8888
+    restart: always
+    volumes:
+      - ./data:/work/data
+    environment:
+      - CONTAINER=docker
+
