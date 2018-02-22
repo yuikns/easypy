@@ -26,12 +26,16 @@ Start container using command: `docker-compose up -d`
 
 This command will start a daemon service here.
 
+And then, visit <http://localhost:8888/> for your Jupyter.
+
 Here are a few useful commands:
 
 ```
 docker-compose up -d --force-recreate # force recreate container
 docker-compose stop # Stop services
 
+ docker-compose logs # Check logs
+ docker-compose logs -f # Check Logs and keep watching
 
 docker-compose down # Stop and remove containers, networks, images, and volumes
 docker-compose up -d --build # rebuild image, it is useful if you are using local context
