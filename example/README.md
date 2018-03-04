@@ -2,7 +2,9 @@
 
 ## Docker Compose
 
-Install [docker toolkits](https://docs.docker.com/docker-for-mac/install/).
+Install [docker toolkits](https://docs.docker.com/docker-for-mac/install/) for Mac.
+
+For detailed instructions on how to install on other environments such as Windows or Linux, or for simpler instructions for installing on a Mac, click for instructions [here](http://www.sunlab.org/teaching/cse6250/spring2018/lab/environment/).
 
 Create a file named as `docker-compose.yml` with content
 
